@@ -38,7 +38,7 @@ The bug is in line 30 in frm_dataset_creator.py. However, the datasets and resul
 
 ## Directory Description
 
-#### Jupyter Notebooks
+### Jupyter Notebooks
 **001_d1_train.ipynb**: DPN training
 
 **003_d1_demod_dsp.ipynb**: Decode data using genie algorithm from \[1\]
@@ -65,7 +65,7 @@ The bug is in line 30 in frm_dataset_creator.py. However, the datasets and resul
 
 
 
-#### Python Files
+### Python Files
 **frm_nn_zoo_01.py**: The  code for DPN
 
 **frm_train_generator.py**: Code for realtime signal generation
@@ -90,7 +90,7 @@ The bug is in line 30 in frm_dataset_creator.py. However, the datasets and resul
 
 **conf_dataset_1.py**: Configuration file for the datset used in [1]
 
-#### Directories
+### Directories
 **datasets**: dataset folder (contains google drive link)
 
 **models**: The weights for trained models
@@ -103,7 +103,7 @@ The bug is in line 30 in frm_dataset_creator.py. However, the datasets and resul
 
 **tmp**: Temporary folder to store the weights
 
-#### Other
+### Other
 **Readme.md**: This file
 
 **requirements.txt**: List of python packages (with version numbers) used with this code. Exported from conda according to  [these instructions](https://stackoverflow.com/a/51293330)
