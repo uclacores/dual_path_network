@@ -6,7 +6,7 @@ The Dual Path Network (DPN) is a neural network architecture for blind symbol de
 
 The training data was generated in realtime during training as described in \[1\].  The code for the generator is in this repo. A google drive link to the validation and test sets is available. The weights of the trained network used in the paper are also provided.
 
-There is a known bug in the SNR values and a [workaround is provided](IMPORTANT WARNING).
+There is a known bug in the SNR values and a workaround is provided (See the IMPORTANT WARNING).
 
 \[1\] S. Hanna, C. Dick, and D. Cabric, “Signal Processing Based Deep Learning for Blind Symbol Decoding and Modulation Classification,” arXiv:2106.10543 \[cs, eess\], Jun. 2021, Accessed: Jun. 21, 2021. \[Online\]. Available: http://arxiv.org/abs/2106.10543
 
