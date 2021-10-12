@@ -39,51 +39,51 @@ The bug is in line 30 in frm_dataset_creator.py. However, the datasets and resul
 ## Directory Description
 
 #### Jupyter Notebooks
-001_d1_train.ipynb: DPN training
-003_d1_demod_dsp.ipynb: Decode data using genie algorithm from \[1\]
-004_d1_baseline_nets.ipynb: Train the SGRU network, which is used as a baseline
-005_d1_demod_dpn.ipynb: Demodulate the signals using DPN output and store MC output
-006_d1_compare_demod.ipynb: Compare demodulation results between Genie and DPN
-008_d1_compare_params.ipynb: Evaluated frequency and timing offsets
-009_d1_pred_baseline.ipynb: Generate MC predictions for GRU
-010_d1_mod_class.ipynb: Compare MC results for DPN and GRU
-013_d1_demod_sample.ipynb: Plot a signal from the dataset
-020_d1_confusion_matrix.ipynb: Plot the confusion matrix
+**001_d1_train.ipynb**: DPN training
+**003_d1_demod_dsp.ipynb**: Decode data using genie algorithm from \[1\]
+**004_d1_baseline_nets.ipynb**: Train the SGRU network, which is used as a baseline
+**005_d1_demod_dpn.ipynb**: Demodulate the signals using DPN output and store MC output
+**006_d1_compare_demod.ipynb**: Compare demodulation results between Genie and DPN
+**008_d1_compare_params.ipynb**: Evaluated frequency and timing offsets
+**009_d1_pred_baseline.ipynb**: Generate MC predictions for GRU
+**010_d1_mod_class.ipynb**: Compare MC results for DPN and GRU
+**013_d1_demod_sample.ipynb**: Plot a signal from the dataset
+**020_d1_confusion_matrix.ipynb**: Plot the confusion matrix
 
-dataset_creator.ipynb: Code to generate a dataset
+**dataset_creator.ipynb**: Code to generate a dataset
 
 
 
 
 
 #### Python Files
-frm_nn_zoo_01.py: The  code for DPN
+**frm_nn_zoo_01.py**: The  code for DPN
 
-frm_train_generator.py: Code for realtime signal generation
-frm_dataset_creator.py: Code for data generation
-frm_dataset_creator2.py: Optimized code for data generation
-frm_modulations.py: Generating signals from different modulations
-frm_modulations_fast.py: Optimized code for modulations
-frm_dataset_loader.py: Code for parsing the dataset
+**frm_train_generator.py**: Code for realtime signal generation
+**frm_dataset_creator.py**: Code for data generation
+**frm_dataset_creator2.py**: Optimized code for data generation
+**frm_modulations.py**: Generating signals from different modulations
+**frm_modulations_fast.py**: Optimized code for modulations
+**frm_dataset_loader.py**: Code for parsing the dataset
 
-frm_demod_utils.py: Functions used for demodulation
-frm_eval_utils.py: Functions used in the evaulation
+**frm_demod_utils.py**: Functions used for demodulation
+**frm_eval_utils.py**: Functions used in the evaulation
 
-frm_nn_baseline.py: Neural network code for SGRU
-frm_nn_functions.py: Keras functions used by DPN
+**frm_nn_baseline.py**: Neural network code for SGRU
+**frm_nn_functions.py**: Keras functions used by DPN
 
-conf_dataset_1.py: Configuration file for the datset used in [1]
+**conf_dataset_1.py**: Configuration file for the datset used in [1]
 
 #### Directories
-datasets: dataset folder (contains google drive link)
-models: The weights for trained models
-outputs: Temporary outputs provided
+**datasets**: dataset folder (contains google drive link)
+**models**: The weights for trained models
+**outputs**: Temporary outputs provided
 
-html: HTML version of all jupyter notebooks for convenience
-py: Python version of all jupyter notebooks for convenience
-tmp: Temporary folder to store the weights
+**html**: HTML version of all jupyter notebooks for convenience
+**py**: Python version of all jupyter notebooks for convenience
+**tmp**: Temporary folder to store the weights
 
 #### Other
-Readme.md: This file
-requirements.txt: List of python packages (with version numbers) used with this code. Exported from conda according to  [these instructions](https://stackoverflow.com/a/51293330)
+**Readme.md**: This file
+**requirements.txt**: List of python packages (with version numbers) used with this code. Exported from conda according to  [these instructions](https://stackoverflow.com/a/51293330)
 
