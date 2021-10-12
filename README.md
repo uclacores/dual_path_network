@@ -16,7 +16,7 @@ There is a known bug in the SNR values and a [workaround is provided](IMPORTANT 
 
 * DPN code uses [CuDNNGRU](https://www.tensorflow.org/api_docs/python/tf/compat/v1/keras/layers/CuDNNGRU). Hence, an NVidia GPU is required to run the code.
 
-* The validation and test datasets provided in the link are about 10 GB each. A server with large amounts of RAM (>32 GB) is needed to load them into memory.
+* The validation and test datasets provided in the link are about 10 GB each. A server with large amounts of RAM (>=32 GB) is needed to load them into memory.
 
 Note that these instructions are to replicate the authors setup.  The code might work with other versions of the packages. 
 
