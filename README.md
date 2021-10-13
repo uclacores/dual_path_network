@@ -49,7 +49,7 @@ The bug is in line 30 in frm_dataset_creator.py. However, the datasets and resul
 
 **006_d1_compare_demod.ipynb**: Compare demodulation results between Genie and DPN
 
-**008_d1_compare_params.ipynb**: Evaluated frequency and timing offsets
+**008_d1_compare_params.ipynb**: Evaluate frequency and timing offsets
 
 **009_d1_pred_baseline.ipynb**: Generate MC predictions for GRU
 
@@ -68,8 +68,6 @@ The bug is in line 30 in frm_dataset_creator.py. However, the datasets and resul
 ### Python Files
 **frm_nn_zoo_01.py**: The  code for DPN
 
-**frm_train_generator.py**: Code for realtime signal generation
-
 **frm_dataset_creator.py**: Code for data generation
 
 **frm_dataset_creator2.py**: Optimized code for data generation
@@ -78,7 +76,9 @@ The bug is in line 30 in frm_dataset_creator.py. However, the datasets and resul
 
 **frm_modulations_fast.py**: Optimized code for modulations
 
-**frm_dataset_loader.py**: Code for parsing the dataset
+**frm_train_generator.py**: A keras generator for realtime sample generation
+
+**frm_dataset_loader.py**: Code for reading the dataset from disk
 
 **frm_demod_utils.py**: Functions used for demodulation
 
@@ -104,7 +104,7 @@ The bug is in line 30 in frm_dataset_creator.py. However, the datasets and resul
 **tmp**: Temporary folder to store the weights
 
 ### Other
-**Readme.md**: This file
 
 **requirements.txt**: List of python packages (with version numbers) used with this code. Exported from conda according to  [these instructions](https://stackoverflow.com/a/51293330)
 
+**Readme.md**: This file
