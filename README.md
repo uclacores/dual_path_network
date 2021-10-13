@@ -16,9 +16,9 @@ There is a known bug in the SNR values and a workaround is provided (See the IMP
 
 * DPN code uses [CuDNNGRU](https://www.tensorflow.org/api_docs/python/tf/compat/v1/keras/layers/CuDNNGRU). Hence, an NVidia GPU is required to run the code.
 
-* The validation and test datasets provided in the link are about 10 GB each. A server with large amounts of RAM (>=32 GB) is needed to load them into memory.
+* The validation and test datasets provided in the link are about 10 GB each. A server with  RAM >=32 GB is needed to load them into memory.
 
-Note that these instructions are to replicate the authors setup.  The code might work with other versions of the packages. 
+Note that these requirements are to replicate the authors' setup.  The code might work with other versions of the packages. 
 
 If no GPU is available the GuDNNGRU layer can be replaced by a regular GRU in frm_nn_zoo_01.py (However, you might need some [workaround](https://stackoverflow.com/a/58810760) to load the weights).
 
