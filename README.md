@@ -32,7 +32,7 @@ There is a known bug in the code in the signal generation. A square root is miss
 
 For example, when the input value of the SNR in the generator is 10dB, the true SNR of the generated signal is 20dB. 
 
-The workaround is to provide the input SNR value as half of the required value. If you want a signal with 10dB SNR, provide an input value of 5dB.
+The workaround is to provide the input SNR value as half of the required value. For example, if you want a signal with a 10dB SNR, provide an input value of 5dB.
 
 The bug is in line 30 in frm_dataset_creator.py. However, the datasets and results were generated before the bug was discovered and it was not fixed for backward compatibility.
 
