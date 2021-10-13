@@ -2,7 +2,7 @@
 # Dual Path Network
 
 ## Introduction
-The Dual Path Network (DPN) is a neural network architecture for blind symbol decoding and modulation classification. This repository includes the code that accompanies the paper  \[1\]. It includes the code for DPN along with the code for data generation and post processing.
+The Dual Path Network (DPN) is a neural network architecture for blind symbol decoding and modulation classification. This repository includes the code that accompanies the paper  \[1\]. It includes the code for DPN and the output post processing along with the code for data generation.
 
 The training data was generated in realtime during training as described in \[1\].  The code for the generator is in this repo. A google drive link to the validation and test sets is available. The weights of the trained network used in the paper are also provided.
 
