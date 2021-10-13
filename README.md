@@ -45,7 +45,7 @@ The bug is in line 30 in frm_dataset_creator.py. However, the datasets and resul
 
 **004_d1_baseline_nets.ipynb**: Train the SGRU network, which is used as a baseline
 
-**005_d1_demod_dpn.ipynb**: Demodulate the signals using DPN output and store MC output
+**005_d1_demod_dpn.ipynb**: Demodulate the signals using DPN output and store modulation classification (MC) output
 
 **006_d1_compare_demod.ipynb**: Compare demodulation results between Genie and DPN
 
